@@ -268,7 +268,14 @@ However, two requirements must be fulfilled:
 
 *Write your answer here:*
 ```text
+type User struct {
+    ID           int    `json:"id"`
+    FullName     string `json:"full_name"`
+    Email        string `json:"email"`
+    PasswordHash string `json:"-"`
+}
 
+The `json:"-"` tag tells Go's `encoding/json` package to ignore the PasswordHash field when marshaling the struct into JSON. Therefore, the password hash will not be included in the JSON response sent to the frontend.
 
 ```
 
@@ -286,7 +293,11 @@ Your team is building an **E-Commerce Platform**. You need to store two main mod
 
 *Write your answer here:*
 ```text
+For User Wallets & Financial Balances, MySQL is the better choice because financial transactions require strong consistency, ACID transactions, and rollback support to ensure that balance transfers are completed safely and reliably.
 
+For Product Catalog & Dynamic Specifications, MongoDB is suitable because its document-based structure provides flexible schemas. Different product types can have different attributes and nested specifications without requiring a rigid relational schema.
+
+Therefore, MySQL is selected for financial data that requires strict transactional consistency, while MongoDB is selected for product catalog data that requires greater schema flexibility.
 
 ```
 
