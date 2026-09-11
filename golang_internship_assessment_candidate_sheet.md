@@ -208,11 +208,11 @@ func main() {
 *👉 Commit & push after completing this section.*
 
 **16. Which of the following statements about Git commands and everyday workflows are TRUE? (Select ALL that apply)**
-- [ ] A) `git branch -d feature-branch` deletes a local branch.
-- [ ] B) `git stash` temporarily shelves uncommitted local changes so you can work on a clean directory.
+- [x] A) `git branch -d feature-branch` deletes a local branch.
+- [x] B) `git stash` temporarily shelves uncommitted local changes so you can work on a clean directory.
 - [ ] C) `git push origin main` automatically deletes all remote branches that were merged locally.
-- [ ] D) `git status` displays the state of the working directory and the staging area.
-- [ ] E) `git init` converts an existing directory into a new Git repository.
+- [x] D) `git status` displays the state of the working directory and the staging area.
+- [x] E) `git init` converts an existing directory into a new Git repository.
 
 **17. Which of the following types in Go have `nil` as their default zero value? (Select ALL that apply)**
 - [ ] A) Slices (`[]int`)
