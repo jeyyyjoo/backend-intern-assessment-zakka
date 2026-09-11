@@ -215,32 +215,32 @@ func main() {
 - [x] E) `git init` converts an existing directory into a new Git repository.
 
 **17. Which of the following types in Go have `nil` as their default zero value? (Select ALL that apply)**
-- [ ] A) Slices (`[]int`)
-- [ ] B) Maps (`map[string]string`)
-- [ ] C) Pointers (`*User`)
+- [x] A) Slices (`[]int`)
+- [x] B) Maps (`map[string]string`)
+- [x] C) Pointers (`*User`)
 - [ ] D) Integers (`int`)
-- [ ] E) Interfaces (`error` or `any`)
+- [x] E) Interfaces (`error` or `any`)
 
 **18. Which of the following statements about Go data structures, memory, and syntax are CORRECT? (Select ALL that apply)**
-- [ ] A) Attempting to write into an uninitialized `nil` map (`var m map[string]int; m["key"] = 1`) triggers a fatal runtime panic.
-- [ ] B) A Go slice header contains three fields: a pointer to the underlying array, length (`len`), and capacity (`cap`).
-- [ ] C) Struct tags such as `` `json:"user_id,omitempty"` `` allow customizing JSON field names and omitting empty fields during serialization.
+- [x] A) Attempting to write into an uninitialized `nil` map (`var m map[string]int; m["key"] = 1`) triggers a fatal runtime panic.
+- [x] B) A Go slice header contains three fields: a pointer to the underlying array, length (`len`), and capacity (`cap`).
+- [x] C) Struct tags such as `` `json:"user_id,omitempty"` `` allow customizing JSON field names and omitting empty fields during serialization.
 - [ ] D) In Go, a struct must explicitly declare an `implements` keyword to satisfy an interface.
-- [ ] E) The `make()` built-in function is used to initialize slices, maps, and channels with allocated memory.
+- [x] E) The `make()` built-in function is used to initialize slices, maps, and channels with allocated memory.
 
 **19. Which of the following practices are recommended for building secure, reliable, and performant database applications? (Select ALL that apply)**
-- [ ] A) Use parameterized SQL queries (e.g., `db.Query("SELECT ... WHERE email = ?", email)`) to prevent SQL Injection attacks.
+- [x] A) Use parameterized SQL queries (e.g., `db.Query("SELECT ... WHERE email = ?", email)`) to prevent SQL Injection attacks.
 - [ ] B) Embed raw user input strings directly into SQL queries using `fmt.Sprintf` to maximize query execution speed.
-- [ ] C) Add indexes to columns that are frequently used in `WHERE` filters, `JOIN` conditions, and `ORDER BY` clauses.
-- [ ] D) Always close SQL query result sets (`rows.Close()`) to release database connections back to the connection pool.
-- [ ] E) Use database transactions (`BEGIN`, `COMMIT`, `ROLLBACK`) when executing multi-step financial balance transfers.
+- [x] C) Add indexes to columns that are frequently used in `WHERE` filters, `JOIN` conditions, and `ORDER BY` clauses.
+- [x] D) Always close SQL query result sets (`rows.Close()`) to release database connections back to the connection pool.
+- [x] E) Use database transactions (`BEGIN`, `COMMIT`, `ROLLBACK`) when executing multi-step financial balance transfers.
 
 **20. Which of the following statements regarding MongoDB (NoSQL) are TRUE? (Select ALL that apply)**
-- [ ] A) MongoDB stores records as flexible, semi-structured BSON (Binary JSON) documents.
-- [ ] B) Different documents within the same MongoDB collection can contain completely different fields and data structures.
-- [ ] C) The `$lookup` aggregation stage allows joining data from another collection (similar to a SQL LEFT OUTER JOIN).
+- [x] A) MongoDB stores records as flexible, semi-structured BSON (Binary JSON) documents.
+- [x] B) Different documents within the same MongoDB collection can contain completely different fields and data structures.
+- [x] C) The `$lookup` aggregation stage allows joining data from another collection (similar to a SQL LEFT OUTER JOIN).
 - [ ] D) MongoDB does not support creating indexes on document fields.
-- [ ] E) MongoDB natively supports nested sub-documents and arrays within a single document.
+- [x] E) MongoDB natively supports nested sub-documents and arrays within a single document.
 
 ---
 
