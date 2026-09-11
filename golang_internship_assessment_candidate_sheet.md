@@ -1,7 +1,7 @@
 # 📝 Backend Engineering Internship Assessment
 
-**Candidate Name:** ___________________________  
-**University / Major:** ___________________________  
+**Candidate Name:** Zakka Syari Ananda  
+**University / Major:** Universitas Gunadarma - Informatika  
 **Duration:**  (2 Hours)  
 
 ---
